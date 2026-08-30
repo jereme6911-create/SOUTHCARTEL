@@ -33,10 +33,10 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("haze-bot")
 
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-WEBHOOK_SECRET = os.environ.get("WEBHOOK_SECRET", "")
-WEBAPP_URL = os.environ["WEBAPP_URL"].rstrip("/")
-OWNER_CHAT_ID = int(os.environ["OWNER_CHAT_ID"])
+BOT_TOKEN = os.environ["8838108627:AAFSyinh4PNPgRbR-r0euv69pqeUARrfgAs"]
+WEBHOOK_SECRET = os.environ.get("01908107d7d4beb214eeb423f774a536850268ec4589999616cd3c398ad753ac", "")
+WEBAPP_URL = os.environ["https://thunderous-lily-fc8fd7.netlify.app/"].rstrip("/")
+OWNER_CHAT_ID = int(os.environ["5849051243"])
 
 # ======================================================================
 # Costruzione PTB Application (gestisce webhook + bot in un unico processo)
