@@ -47,7 +47,7 @@ application = Application.builder().token(BOT_TOKEN).build()
 async def cmd_start(update: Update, ctx: ContextTypes.DEFAULT_TYPE) -> None:
     """Risponde a /start con un messaggio che apre la mini app."""
     user = update.effective_user
-    url = WEBAPP_URL or "https://t.me/your_bot"
+    url = WEBAPP_URL or "https://thunderous-lily-fc8fd7.netlify.app/"
     await update.message.reply_text(
         f"Ciao {user.first_name}! 👋\n"
         "Tocca il bottone qui sotto per aprire il negozio HAZÉ.",
